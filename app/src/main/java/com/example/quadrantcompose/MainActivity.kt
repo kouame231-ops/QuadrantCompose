@@ -126,7 +126,7 @@ fun QuadrantScreen(modifier: Modifier = Modifier) {
 }
 
 // Aperçu (Preview) : permet de voir le résultat dans Android Studio
-// sans avoir besoin de lancer l'application sur un téléphone/émulateur
+// sans avoir besoin de lancer l'application sur un téléphone émulateur
 @Preview(showBackground = true)
 @Composable
 fun QuadrantScreenPreview() {

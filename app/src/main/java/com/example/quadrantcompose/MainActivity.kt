@@ -6,24 +6,24 @@ import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
-import androidx.compose.foundation.background                 // Modificateur pour définir une couleur de fond
-import androidx.compose.foundation.layout.Arrangement          // Permet de définir l'espacement/positionnement des enfants (ex : centrage)
-import androidx.compose.foundation.layout.Column               // Composable pour empiler des éléments verticalement
-import androidx.compose.foundation.layout.Row                  // Composable pour aligner des éléments horizontalement
-import androidx.compose.foundation.layout.fillMaxSize          // Modificateur : occupe toute la taille disponible
-import androidx.compose.foundation.layout.padding              // Modificateur : ajoute une marge intérieure
-import androidx.compose.material3.Scaffold                     // Structure de base d'un écran Material Design
-import androidx.compose.material3.Text                         // Composable pour afficher du texte
-import androidx.compose.runtime.Composable                     // Annotation qui déclare une fonction "Composable"
-import androidx.compose.ui.Alignment                           // Permet d'aligner un élément horizontalement/verticalement
-import androidx.compose.ui.Modifier                            // Type utilisé pour personnaliser l'apparence des composables
-import androidx.compose.ui.graphics.Color                      // Permet de définir des couleurs personnalisées
-import androidx.compose.ui.res.stringResource                  // Charge un texte depuis le fichier strings.xml
-import androidx.compose.ui.text.font.FontWeight                // Permet de définir l'épaisseur de la police (ex : gras)
-import androidx.compose.ui.text.style.TextAlign                // Définit l'alignement du texte (gauche, centre, justifié...)
-import androidx.compose.ui.tooling.preview.Preview              // Annotation pour afficher un aperçu dans Android Studio
-import androidx.compose.ui.unit.dp                             // Unité de mesure pour les tailles/marges (density-independent pixels)
-import com.example.quadrantcompose.ui.theme.QuadrantComposeTheme // Thème visuel généré automatiquement pour l'application
+import androidx.compose.foundation.background
+import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.padding
+import androidx.compose.material3.Scaffold
+import androidx.compose.material3.Text
+import androidx.compose.runtime.Composable
+import androidx.compose.ui.Alignment
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.style.TextAlign
+import androidx.compose.ui.tooling.preview.Preview
+import androidx.compose.ui.unit.dp
+import com.example.quadrantcompose.ui.theme.QuadrantComposeTheme
 
 // Point d'entrée de l'application : c'est la première classe exécutée au lancement
 class MainActivity : ComponentActivity() {
@@ -80,7 +80,7 @@ fun ComposableInfoCard(
     }
 }
 
-// Fonction Composable principale : assemble les 4 quadrants en une grille 2x2
+// Fonction Composable principale qui assemble les 4 quadrants en une grille 2x2
 @Composable
 fun QuadrantScreen(modifier: Modifier = Modifier) {
     // Column principale : empile 2 lignes (Row) l'une en dessous de l'autre

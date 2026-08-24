@@ -66,7 +66,7 @@ fun ComposableInfoCard(
         verticalArrangement = Arrangement.Center,          // Centre le contenu verticalement
         horizontalAlignment = Alignment.CenterHorizontally // Centre le contenu horizontalement
     ) {
-        // Titre du quadrant, en gras
+        // Titre du quadrant en gras
         Text(
             text = title,
             fontWeight = FontWeight.Bold,               // Texte en gras, comme demandé par l'exercice
